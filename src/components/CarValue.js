@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 function CarValue() {
   const totalCost = useSelector(({ cars: { data, searchTerm } }) => {
